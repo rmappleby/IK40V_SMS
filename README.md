@@ -3,7 +3,7 @@ A command line interface to send SMS messages via the Alcatel Linkkey IK40V USB 
 
 The Alcatel IK40V is a USB-powered 4G cellular modem. It's a category 4 device, capable of up to 150Mbps downloads and 50Mbps uploads. This makes it useful as a mobile broadband connection, which is what I use it for, in conjunction with an OpenWRT-based router.
 
-![ik40v](./ik40v.jpg)
+![ik40v](./ik40.jpg)
 
 It connects to the router via RNDIS, which is essentially a virtual ethernet network run over the USB hardware interface. The IK40V defines the 192.168.1.1/24 network, taking the 192.168.1.1 address for itself, and issuing the router with an IP address in that network. The router can then send network traffic over the mobile network by routing packets through 192.168.1.1.
 
